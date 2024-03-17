@@ -26,15 +26,42 @@
 
 // Array, Objects, Functions
 
-const heros = ["suraj", "naagraj", "doga"];
-let myObj = {
-    name : "Suraj",
-    age: 45,
+// const heros = ["suraj", "naagraj", "doga"];
+// let myObj = {
+//     name : "Suraj",
+//     age: 45,
 
-}
+// }
 
-const myFunction = function (){
-    console.log("hello");
-};
+// const myFunction = function (){
+//     console.log("hello");
+// };
 
-console.log(typeof heros);
+// console.log(typeof heros); 
+
+
+//++++++++++++++++++++++++++++++++++++++++++
+
+//stack (Primitive) , Heap (Non-Primitive)
+
+// let myname  = "suraj yadav"
+
+// let anothername = myname // we get copy value
+
+// anothername = "rahul yadav";
+
+// console.log(myname);
+// console.log(anothername);
+
+// let obj = {
+//     name: "suraj",
+//     age: 28,
+//     city:"Azamgarh"
+// }
+
+// let obj2 = obj; // we get refernce of that memory
+
+// obj2.name =  "rahul"; 
+
+// console.log(obj)
+// console.log(obj2)
